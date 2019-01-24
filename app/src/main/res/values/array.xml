@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="resId">
+        <item>@drawable/gamauji</item>
+        <item>@drawable/gujyodance</item>
+        <item>@drawable/ikenoue_misogi</item>
+    </integer-array>
+</resources>
