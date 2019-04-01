@@ -6,8 +6,9 @@
     android:layout_height="match_parent"
     android:background="#ffffff">
 
+    <!--main-->
     <RelativeLayout
-        android:id="@+id/id_main"
+        android:id="@+id/id_spring_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
@@ -23,7 +24,7 @@
             android:layout_height="50dp"
             android:background="@drawable/under_line">
 
-            <ImageButton
+            <Button
                 android:id="@+id/btn_back"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
@@ -53,23 +54,24 @@
         <RelativeLayout
             android:id="@+id/rl_002"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="200dp"
             android:layout_marginTop="50dp"
             android:background="@drawable/under_line">
 
-            <Button
+            <ImageButton
                 android:layout_width="80dp"
                 android:layout_height="30dp"
                 android:layout_alignParentRight="true"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="15dp"
-                android:text="슬라이드" />
+                android:id="@+id/list_button"
+                android:background="@drawable/list"/>
 
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="55dp">
+                android:layout_marginTop="70dp">
 
                 <ImageButton
                     android:id="@+id/onspring"
@@ -107,23 +109,38 @@
                     android:layout_marginLeft="270dp"
                     android:layout_marginRight="15dp"
                     android:background="@drawable/unwinter" />
+
+
             </RelativeLayout>
 
         </RelativeLayout>
 
-
         <RelativeLayout
-            android:id="@+id/rl_003"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="200dp">
+            android:layout_marginTop="250dp">
 
-            <ListView
-                android:id="@+id/listView"
+            <ImageButton
+                android:id="@+id/gamaugi"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="80dp"
+                android:background="@drawable/gamauji" />
 
-            </ListView>
+            <ImageButton
+                android:id="@+id/gujyodance"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/dakayama"/>
+            <!--즐겨찾기 버튼 크키를 줄이니까 별모양이 안나와서 일단 보류
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="11dp"
+                android:id="@+id/menu1"
+                android:layout_width="19dp"
+                android:layout_height="15dp"
+                android:background="def"
+                android:src="@drawable/bookmark_on_off" />-->
         </RelativeLayout>
 
         <FrameLayout

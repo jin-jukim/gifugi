@@ -9,9 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".item_custom"></activity>
-        <activity android:name=".CustomDTO" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".winter_festival_card"></activity>
+        <activity android:name=".fall_festival_card" />
+        <activity android:name=".summer_festival_card" />
+        <activity android:name=".winter_list" />
+        <activity android:name=".fall_list" />
+        <activity android:name=".summer_list" />
+        <activity android:name=".spring_festival_card" />
+        <activity android:name=".spring_list">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
